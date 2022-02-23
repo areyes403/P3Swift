@@ -13,6 +13,7 @@
 		7711578327C525B30034FF9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7711578127C525B30034FF9C /* Main.storyboard */; };
 		7711578527C525B70034FF9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7711578427C525B70034FF9C /* Assets.xcassets */; };
 		7711578827C525B70034FF9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7711578627C525B70034FF9C /* LaunchScreen.storyboard */; };
+		77471AD327C5C7AD002B0D3D /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77471AD227C5C7AD002B0D3D /* SecondScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7711578427C525B70034FF9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7711578727C525B70034FF9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7711578927C525B70034FF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77471AD227C5C7AD002B0D3D /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7711578427C525B70034FF9C /* Assets.xcassets */,
 				7711578627C525B70034FF9C /* LaunchScreen.storyboard */,
 				7711578927C525B70034FF9C /* Info.plist */,
+				77471AD227C5C7AD002B0D3D /* SecondScreenViewController.swift */,
 			);
 			path = Practica3;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77471AD327C5C7AD002B0D3D /* SecondScreenViewController.swift in Sources */,
 				7711578027C525B30034FF9C /* ViewController.swift in Sources */,
 				7711577C27C525B30034FF9C /* AppDelegate.swift in Sources */,
 				7711577E27C525B30034FF9C /* SceneDelegate.swift in Sources */,

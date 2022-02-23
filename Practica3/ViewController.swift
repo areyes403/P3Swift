@@ -9,11 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imgBackground: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+        self.view.backgroundColor=UIColor(patternImage: UIImage(named:"greenBackground")!)
+        
+     
     }
-
+    
+    
 
 }
 
