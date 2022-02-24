@@ -9,7 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var imgBackground: UIImageView!
+    @IBOutlet weak var imgCarta1: UIImageView!
+    
+    
+    @IBOutlet weak var imgCarta2: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     
@@ -17,6 +22,8 @@ class ViewController: UIViewController {
         
      
     }
+    
+    
     
     
 
